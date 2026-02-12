@@ -7,7 +7,7 @@ export default function App() {
       <Text>Cadastro</Text>
       <TextInput
       style={styles.input}
-      placeholder="digite seu email"/>
+      placeholder="digite seu cpf"/>
       <StatusBar style="auto" />
     </View>
   );
@@ -17,7 +17,26 @@ export default function App() {
     <View style={styles.container}>
       <TextInput
       style={styles.input}
-      placeholder="digite sua senha"/>
+      placeholder="digite seu idade"/>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <TextInput
+      style={styles.input}
+      placeholder="digite seu nome"/>
+      <StatusBar style="auto" />
+    </View>
+  );
+}export default function App() {
+  return (
+    <View style={styles.container}>
+      <TextInput
+      style={styles.input}
+      placeholder="digite seu telefone"/>
       <StatusBar style="auto" />
     </View>
   );
