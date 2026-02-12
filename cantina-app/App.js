@@ -8,6 +8,7 @@ export default function App() {
       <LoginScreens></LoginScreens>
       <StatusBar style="auto" />
     </View>
+
   );
 }
 
