@@ -7,7 +7,17 @@ export default function App() {
       <Text>Cadastro</Text>
       <TextInput
       style={styles.input}
-      placeholder = "digite seu email"/>
+      placeholder="digite seu email"/>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <TextInput
+      style={styles.input}
+      placeholder="digite sua senha"/>
       <StatusBar style="auto" />
     </View>
   );
