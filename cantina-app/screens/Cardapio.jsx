@@ -8,6 +8,11 @@ export default function App() {
       <StatusBar style="auto" />
 
     <View style={styles.container}> 
+      <ImageBackground 
+        source={URL('https://img.freepik.com/fotos-gratis/chama-de-fogo-com-brilho-em-fundo-preto_84443-7786.jpg?semt=ais_user_personalization&w=740&q=80')} 
+        resizeMode="cover"
+        style={styles.background}
+      >
     
       <Text style={styles.nome}>Lanchonete do Daniel Marcos</Text>
       <StatusBar style="auto" />
@@ -67,7 +72,7 @@ const styles = StyleSheet.create({
     borderColor: '#ddd',
   },
   container: {
-    backgroundColor: '#f2f2f2', // Cinza clarinho para o
+    backgroundColor: '#f2f2f2',
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
