@@ -14,8 +14,14 @@ export default function App() {
 
       <View style={styles.item}>
         <Text style={styles.nomeProduto}>X-Tudo</Text>
-        <Text style={styles.descricao}>Pão, carne, ovo, bacon, alface e tomate</Text>
+        <Text style={styles.descricao}>Pão, carne, ovo, bacon, alface, tomate e oleo</Text>
         <Text style={styles.preco}>R$ 25,00</Text>
+      </View>
+
+      <View style={styles.item}>
+        <Text style={styles.nomeProduto}>X-bacom</Text>
+        <Text style={styles.descricao}>Pão, carne, bacon, queijo, tomate e oleo</Text>
+        <Text style={styles.preco}>R$ 30,00</Text>
       </View>
 
       <View style={styles.item}>
@@ -68,12 +74,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   nome: {
-    backgroundColor: 'red',
-    color: 'white',
+    position: 'absolute', 
+    top: 50,              
+    left: 20,             
+    right: 20,            
+    backgroundColor: 'yellow',
+    textAlign: 'center',
     padding: 10,
-    marginTop: 20,
-    fontSize: 25,
-    fontFamily: 'serif',
-    textAlign: 'center'
-  }
+    fontFamily: 'serif'
+  },
 });
