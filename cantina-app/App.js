@@ -5,7 +5,7 @@ import cardapio from './assets/screens/Cardapio';
 export default function App() {
   return (
     <View style={styles.container}>
-      <LoginScreens></LoginScreens>
+      <Text style={styles.nome}>Lachonete do Daniel Marcos</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,4 +18,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  nome: {
+    backgroundColor: 'red',
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 60,
+    marginBottom: 820,
+    fontSize: 25,
+    fontFamily: 'serif'
+  }
 });
