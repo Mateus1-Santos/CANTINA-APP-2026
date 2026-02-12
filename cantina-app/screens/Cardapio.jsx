@@ -61,6 +61,7 @@ const styles = StyleSheet.create({
     borderColor: '#ddd',
   },
   container: {
+    backgroundColor: '#f2f2f2', // Cinza clarinho para o
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',

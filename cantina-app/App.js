@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import cardapio from './assets/screens/Cardapio';
 
 export default function App() {
   return (
