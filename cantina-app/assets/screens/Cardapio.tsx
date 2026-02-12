@@ -1,12 +1,11 @@
-import React from 'react'
-import { StatusBar } from 'expo-status-bar';
-import { View, Text, StyleSheet } from 'react-native';
+import React from 'react';
+import { StatusBar, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.nome}>Lachonete do Daniel Marcos</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.name}>Lachonete do Daniel Marcos</Text>
+      <StatusBar barStyle="dark-content" />
     </View>
   );
 }
