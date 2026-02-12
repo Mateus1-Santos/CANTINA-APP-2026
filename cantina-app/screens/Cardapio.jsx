@@ -67,18 +67,20 @@ const styles = StyleSheet.create({
     borderColor: '#ddd',
   },
   container: {
+    backgroundColor: '#f2f2f2', // Cinza clarinho para o
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
   nome: {
-    backgroundColor: 'red',
-    color: 'white',
+    position: 'absolute', 
+    top: 50,              
+    left: 20,             
+    right: 20,            
+    backgroundColor: 'yellow',
+    textAlign: 'center',
     padding: 10,
-    marginTop: 20,
-    fontSize: 25,
-    fontFamily: 'serif',
-    textAlign: 'center'
-  }
+    fontFamily: 'serif'
+  },
 });
