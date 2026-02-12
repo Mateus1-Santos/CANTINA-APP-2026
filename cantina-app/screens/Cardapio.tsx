@@ -1,10 +1,11 @@
+import React from 'react'; 
 import { StatusBar } from 'expo-status-bar';
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.nome}>Lachonete do Daniel Marcos</Text>
+      <Text style={styles.nome}>Lanchonete do Daniel Marcos</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -19,12 +20,11 @@ const styles = StyleSheet.create({
   },
   nome: {
     backgroundColor: 'red',
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: 60,
-    marginBottom: 820,
+    color: 'white',
+    padding: 10,
+    marginTop: 20,
     fontSize: 25,
-    fontFamily: 'serif'
+    fontFamily: 'serif',
+    textAlign: 'center'
   }
 });
