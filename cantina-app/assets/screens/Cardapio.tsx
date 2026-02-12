@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
     marginTop: 60,
     marginBottom: 820,
     fontSize: 25,
-    fontFamily: 'serif'
+    fontfamily: "serif",
+    fontWeight: '200',
   }
 });
