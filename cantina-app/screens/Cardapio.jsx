@@ -12,6 +12,11 @@ export default function App() {
       <Text style={styles.nome}>Lanchonete do Daniel Marcos</Text>
       <StatusBar style="auto" />
 
+      <Image
+      source={{ uri: 'https://www.sabornamesa.com.br/media/k2/items/cache/bf1e20a4462b71e3cc4cece2a8c96ac8_XL.jpg' }}
+      style={{ width: 100, height: 100 }}
+      />
+
       <View style={styles.item}>
         <Text style={styles.nomeProduto}>X-Tudo</Text>
         <Text style={styles.descricao}>Pão, carne, ovo, bacon, alface, tomate e oleo</Text>
@@ -67,7 +72,7 @@ const styles = StyleSheet.create({
     borderColor: '#ddd',
   },
   container: {
-    backgroundColor: '#f2f2f2', // Cinza clarinho para o
+    backgroundColor: '#f2f2f2',
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
