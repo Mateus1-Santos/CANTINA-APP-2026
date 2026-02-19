@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import {useNavigation, NavigationContainer} from "@react-navigation/native"
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Cardapio from './assets/screens/Cardapio';
 import LoginScreen from './screens/LoginScreens'
 
@@ -10,8 +11,10 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <Stack.Screen name='Cadastro' component={Cardapio}/>
-      <Stack.Screen name='Login' component-={LoginScreen}/>
+      <Stack.Navigator>
+        <Stack.Screen name='Cadastro' component={Cardapio}/>
+        <Stack.Screen name='Login' component={LoginScreen}/>
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
