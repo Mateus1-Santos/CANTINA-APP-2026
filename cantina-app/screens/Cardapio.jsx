@@ -8,14 +8,14 @@ export default function App() {
       <StatusBar style="auto" />
 
     <View style={styles.container}> 
-      <ImageBackground 
-        source={URL('https://img.freepik.com/fotos-gratis/chama-de-fogo-com-brilho-em-fundo-preto_84443-7786.jpg?semt=ais_user_personalization&w=740&q=80')} 
-        resizeMode="cover"
-        style={styles.background}
-      >
     
       <Text style={styles.nome}>Lanchonete do Daniel Marcos</Text>
       <StatusBar style="auto" />
+
+      <Image
+      source={{ uri: 'https://www.sabornamesa.com.br/media/k2/items/cache/bf1e20a4462b71e3cc4cece2a8c96ac8_XL.jpg' }}
+      style={{ width: 100, height: 100 }}
+      />
 
       <View style={styles.item}>
         <Text style={styles.nomeProduto}>X-Tudo</Text>

@@ -6,9 +6,6 @@ import Cardapio from './assets/screens/Cardapio';
 import LoginScreen from './screens/LoginScreens'
 
 export default function App() {
-
-  const Stack = createNativeStackNavigator();
-
   return (
     <NavigationContainer>
       <Stack.Navigator>
